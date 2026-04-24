@@ -1,0 +1,39 @@
+[build-system]
+requires = ["setuptools>=61.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "rag-eval-kit"
+version = "0.1.0"
+description = "Principled, reproducible RAG evaluation — retrieval + generation metrics + HTML reports in one CLI."
+readme = "README.md"
+requires-python = ">=3.9"
+license = {text = "MIT"}
+authors = [{name = "Md Sohanur Rahman", email = "mdsohanur.rahman@utsa.edu"}]
+keywords = [
+  "rag", "retrieval-augmented-generation", "llm-evaluation",
+  "ragas", "trulens", "faithfulness", "hallucination", "langchain",
+  "llamaindex", "openai", "benchmark"
+]
+classifiers = [
+  "Development Status :: 4 - Beta",
+  "Intended Audience :: Developers",
+  "Intended Audience :: Science/Research",
+  "License :: OSI Approved :: MIT License",
+  "Programming Language :: Python :: 3",
+  "Topic :: Scientific/Engineering :: Artificial Intelligence",
+]
+dependencies = []
+
+[project.optional-dependencies]
+dev = ["pytest>=7"]
+
+[project.scripts]
+rag-eval = "rag_eval.cli:main"
+
+[project.urls]
+Homepage = "https://github.com/sohanur083/rag-eval-kit"
+Author = "https://sohanur083.github.io"
+
+[tool.setuptools.packages.find]
+where = ["src"]

@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 400" width="1200" height="400" role="img" aria-label="rag-eval-kit">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0a0a0f"/><stop offset="1" stop-color="#14141c"/>
+    </linearGradient>
+    <linearGradient id="grad3" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#00d4ff"/><stop offset="1" stop-color="#7c5cff"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="400" fill="url(#bg)"/>
+  <g transform="translate(60, 90)">
+    <text font-family="ui-monospace, monospace" font-size="13" fill="#00d4ff" letter-spacing="2">RAG EVALUATION · 8 METRICS</text>
+    <text y="66" font-family="Space Grotesk" font-weight="700" font-size="96" fill="url(#grad3)" letter-spacing="-3">rag-eval-kit</text>
+    <text y="114" font-family="Space Grotesk" font-size="22" fill="#a0a3b0">Retrieval + generation metrics + HTML reports.</text>
+    <text y="144" font-family="Space Grotesk" font-size="22" fill="#a0a3b0">Works with LangChain, LlamaIndex, custom stacks.</text>
+  </g>
+  <g transform="translate(80, 250)" font-family="ui-monospace, monospace" font-size="12">
+    <g>
+      <text x="0" y="14" fill="#a0a3b0">Hit@5</text>
+      <rect x="120" y="2" width="420" height="14" fill="#1a1a22" rx="2"/>
+      <rect x="120" y="2" width="344" height="14" fill="url(#grad3)" rx="2"/>
+      <text x="560" y="14" fill="#e8e9ee">0.82</text>
+    </g>
+    <g transform="translate(0, 26)">
+      <text x="0" y="14" fill="#a0a3b0">Faithfulness</text>
+      <rect x="120" y="2" width="420" height="14" fill="#1a1a22" rx="2"/>
+      <rect x="120" y="2" width="353" height="14" fill="url(#grad3)" rx="2"/>
+      <text x="560" y="14" fill="#e8e9ee">0.84</text>
+    </g>
+    <g transform="translate(0, 52)">
+      <text x="0" y="14" fill="#a0a3b0">Answer relevance</text>
+      <rect x="120" y="2" width="420" height="14" fill="#1a1a22" rx="2"/>
+      <rect x="120" y="2" width="382" height="14" fill="url(#grad3)" rx="2"/>
+      <text x="560" y="14" fill="#e8e9ee">0.91</text>
+    </g>
+    <g transform="translate(0, 78)">
+      <text x="0" y="14" fill="#a0a3b0">Citation accuracy</text>
+      <rect x="120" y="2" width="420" height="14" fill="#1a1a22" rx="2"/>
+      <rect x="120" y="2" width="302" height="14" fill="url(#grad3)" rx="2"/>
+      <text x="560" y="14" fill="#e8e9ee">0.72</text>
+    </g>
+  </g>
+  <g transform="translate(780, 240)" font-family="Space Grotesk" font-weight="700">
+    <text font-size="80" fill="#00d4ff">0.74</text>
+    <text y="22" font-family="ui-monospace, monospace" font-weight="400" font-size="13" fill="#a0a3b0">composite RAG-score</text>
+  </g>
+</svg>

@@ -1,3 +1,5 @@
+<p align="center"><img src="assets/hero.svg" alt="RAG Eval Kit" width="100%" /></p>
+
 # 📚 RAG Eval Kit
 
 > **A rigorous, reproducible evaluation framework for RAG systems.** Retrieval quality + answer faithfulness + hallucination rate + citation accuracy — all in one CLI.

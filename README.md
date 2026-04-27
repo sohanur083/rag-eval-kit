@@ -4,6 +4,8 @@
 
 > **A rigorous, reproducible evaluation framework for RAG systems.** Retrieval quality + answer faithfulness + hallucination rate + citation accuracy — all in one CLI.
 
+> **PyPI name:** `rag-eval-pro` (the bare name `rag-eval-kit` is taken on PyPI by an unrelated project). Repo + import remain `rag_eval`.
+
 [![License: MIT](https://img.shields.io/badge/License-MIT-00d4ff.svg)](LICENSE)
 [![Python](https://img.shields.io/badge/python-3.9+-5ff08d.svg)](#)
 [![Build](https://img.shields.io/badge/build-passing-5ff08d.svg)](#)
@@ -33,7 +35,7 @@ Complements [Ragas](https://github.com/explodinggradients/ragas) and [TruLens](h
 ## 🚀 Install
 
 ```bash
-pip install rag-eval-kit
+pip install rag-eval-pro
 ```
 
 From source:

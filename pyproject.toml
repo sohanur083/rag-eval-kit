@@ -3,7 +3,7 @@ requires = ["setuptools>=61.0", "wheel"]
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "rag-eval-kit"
+name = "rag-eval-pro"
 version = "0.1.0"
 description = "Principled, reproducible RAG evaluation — retrieval + generation metrics + HTML reports in one CLI."
 readme = "README.md"
